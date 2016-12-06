@@ -11,8 +11,8 @@
 		
 
 		<ul id="menu">
-			<li><a href="#">Главная</a></li>
-			<li><a href="#">Архив</a></li>
+			<li><a href="index">Главная</a></li>
+			<li><a href="articles">Архив</a></li>
 			<li><a href="#">Контакты</a></li>
 		</ul>
 		

@@ -1,25 +1,11 @@
 <?php
-    /*$app = Model_DB::query("SELECT * FROM `article`");
+    $app = Model_DB::query("SELECT * FROM `article`");
     foreach($app as $shit => $do)
     {
-        echo $do[title];
-    }*/
+        echo '<div class="article">';
+        echo("<h2>$do[title]</h2>");
+        echo("<p>$do[discription]</p>");
+        echo("Создано: $do[created] | Изменено: $do[update]");
+        echo '</div><br>';
+    }
 ?>
-<div class="article">
-    <h2>Название статьи</h2>
-    <p>
-        Содержание статьи
-    </p>
-    Создано: дата
-    <br>
-    Изменено: дата
-</div> <br>
-<div class="article">
-    <h2>Название статьи</h2>
-    <p>
-        Содержание статьи
-    </p>
-    Создано: дата
-    <br>
-    Изменено: дата
-</div>

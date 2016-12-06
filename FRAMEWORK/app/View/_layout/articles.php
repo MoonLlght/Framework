@@ -8,9 +8,11 @@
 </head>
 <body>
 <header>
-    <img src="<?php echo SERVER; ?>images/header.jpg" class="hdr-bg"/>
-    <img src="<?php echo SERVER; ?>images/logo.png" class="homer"/>
-    <?php echo $menu; //MENUHA ?>
+   <ul id="menu">
+			<li><a href="index">Главная</a></li>
+			<li><a href="articles">Архив</a></li>
+			<li><a href="#">Контакты</a></li>
+		</ul>
 </header>
 <div class="content">
     <div class="parag">
@@ -32,4 +34,3 @@
 </footer>
 </body>
 </html>
-
